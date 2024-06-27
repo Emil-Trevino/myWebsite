@@ -7,12 +7,12 @@ const powerButton = document.getElementById("show-power");
 const skillsDiv = document.getElementById("skills-div");
 const skillsButton = document.getElemetnById("show-skills");
 
-animalButton.addEventListener("click", () {
+animalButton.addEventListener("click", () => {
     animalDiv.classList.toggle("hidden");
 })
-powerButton.addEventListener("click", () {
+powerButton.addEventListener("click", () => {
     powerDiv.classList.toggle("hidden");
 })
-skillsButton.addEventListener("click",() {
+skillsButton.addEventListener("click",() => {
     skillsDiv.classList.toggle("hidden");
 })
