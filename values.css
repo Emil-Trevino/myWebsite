@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin: 0;
+}
+
+.header{
+    padding: 80px;
+    text-align: center; 
+    background: #3678;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px; 
+}
+
+.navbar {
+    overflow: hidden; 
+    background-color: black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+
+.navbar a.right {
+    float: right; 
+}
+
+.row { 
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; 
+}
+
+.side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: rgba(63, 113, 214, 0.656);
+    padding: 20px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.main {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px; 
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    padding: 20px; 
+    text-align: center;
+    background: gold; 
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 30px; 
+}
+
+.container .value-card {
+    position: relative;
+    max-width: 300px; 
+    height: 150px;
+    background: white; 
+    margin: 30px 10px; 
+    padding: 20px 15px; 
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out; 
+}
+
+.container .value-card:hover {
+    height: 300px; 
+}
+
+.container .value-card .value-img {
+    position: relative;
+    width: 260px; 
+    height: 260px; 
+    top: -60px; 
+    left: 20px; 
+    z-index: 1;
+    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
+}
+
+.container .value-card .value-img img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.container .value-card .details {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 780px) {
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 270px; 
+        flex-direction: column;
+        position: relative;
+    }
+    .container .value-card{
+        height: 120px;
+    }
+    .container .value-card .value-img {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        top: -30px;
+        left: 3px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
