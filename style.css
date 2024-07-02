@@ -27,9 +27,9 @@ body{
 }
 
 .header {
-    padding: 80px;
+    padding: 25px;
     text-align: center;
-    background: #3678;
+    background: rgba(63, 113, 214, 0.656);
     color:antiquewhite;
 }
 
@@ -46,12 +46,13 @@ body{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .side {
     -ms-flex: 30%;
-    flex: 30%;
-    background-color: rgba(63, 113, 214, 0.656);
+    flex: 100%;
+    background-color: sandybrown;
     padding: 20px;
 }
 
@@ -60,23 +61,12 @@ img {
     height: 300px;
 }
 
-.side {
-    -ms-flex: 30%;
-    flex: 30%;
-    background-color: rgba(63, 113, 214, 0.656);
-    padding: 20px;
-}
-
-img{
-    width: 300px;
-    height: 300px; 
-}
-
 .main {
     -ms-flex: 70%;
     flex: 70%;
-    background-color: white;
+    background-color: antiquewhite;
     padding: 20px;
+    text-align: center;
 }
 
 .hidden {
