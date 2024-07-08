@@ -69,6 +69,7 @@ section {
 
 .section-container {
     display: flex;
+    background: antiquewhite;
 }
 
 #profile {
