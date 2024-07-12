@@ -59,7 +59,6 @@ a:hover {
 }
 
 section {
-    padding-top: 4vh;
     height: 96vh;
     width: 100%;
     margin: 0 10rem;
@@ -126,12 +125,6 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 #contact {
     display: flex;
     justify-content: center;
@@ -176,6 +169,10 @@ section {
     padding: 20px; 
     text-align: center;
     background: gold
+}
+
+html,body {
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 700px) {
