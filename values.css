@@ -86,7 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    padding: 60px; 
+    padding: 30px; 
     background: antiquewhite;
 }
 
@@ -131,7 +131,7 @@ img {
 .container .value-card .details {
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
+    padding: 25px 15px;
     text-align: center;
     color: black;
     font-family: monospace;
@@ -151,12 +151,14 @@ img {
         box-sizing: border-box;
     }
     .container {
-        width: 270px; 
+        width: 100%; 
         flex-direction: column;
         position: relative;
     }
     .container .value-card{
         height: 120px;
+        border-collapse: separate;
+        border-spacing: 15px;
     }
     .container .value-card .value-img {
         position: relative;
