@@ -69,7 +69,7 @@ section {
 
 .section-container {
     display: flex;
-    background: antiquewhite;
+    background-color: antiquewhite;
 }
 
 #profile {
@@ -145,10 +145,9 @@ section {
     border-radius: 2rem;
     border: black 0.1rem solid;
     border-color: black;
-    background: white;
     margin: 2rem auto;
     padding: 0.5rem;
-    background-color: sandybrown;
+    background: sandybrown;
 }
 
 .contact-info-container {
@@ -177,3 +176,5 @@ section {
     text-align: center;
     background: gold
 }
+
+/* add media screen */
