@@ -180,6 +180,10 @@ html,body {
         justify-self: center;
         align-self: center;
     }
+    .contact-info-container{
+        width: 70px;
+    }
+   
 }
 
 @media screen and (max-width: 400px) {
