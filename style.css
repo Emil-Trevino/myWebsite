@@ -29,7 +29,7 @@ body{
 .header {
     padding: 25px;
     text-align: center;
-    background: rgba(63, 113, 214, 0.656);
+    background: #e78484;
     color:antiquewhite;
 }
 
@@ -52,7 +52,7 @@ body{
 .side {
     -ms-flex: 30%;
     flex: 100%;
-    background-color: sandybrown;
+    background-color: #7f81eb;
     padding: 20px;
 }
 
@@ -64,7 +64,7 @@ img {
 .main {
     -ms-flex: 70%;
     flex: 70%;
-    background-color: antiquewhite;
+    background-color: #7f81eb;
     padding: 20px;
     text-align: center;
 }
@@ -76,7 +76,8 @@ img {
 .footer {
     padding: 20px; 
     text-align: center;
-    background: gold
+    background: #333;
+    color: white;
 }
 
 @media screen and (max-width: 700px) {
